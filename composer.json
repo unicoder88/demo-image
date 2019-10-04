@@ -1,0 +1,17 @@
+{
+    "name": "demo/module-image",
+    "type": "magento2-module",
+    "description": "Demo image generator",
+    "require": {
+        "magento/module-catalog": "*"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Demo\\Image\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
